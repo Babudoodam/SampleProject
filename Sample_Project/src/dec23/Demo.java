@@ -1,8 +1,10 @@
 package dec23;
 
-public class Demo {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class Demo {
+@Test
+	public static void main() {
 		String a = "ABCD";
 		String b = "XYZ";
 		String c = "   ";
